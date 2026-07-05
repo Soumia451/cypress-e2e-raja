@@ -1,1 +1,21 @@
-node_modules
+# Dépendances (jamais versionnées)
+node_modules/
+
+# Résultats et artefacts Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Environnement et secrets
+.env
+*.local
+
+# Système / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+*.log
